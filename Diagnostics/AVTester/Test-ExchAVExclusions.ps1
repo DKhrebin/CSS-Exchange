@@ -45,11 +45,12 @@ Skip script version verification.
 Just update script version to latest one.
 
 .OUTPUTS
-Log file:
-$PSScriptRoot\Test-ExchAvExclusions-#ServerName#-#DataTime#.txt
+Log files:
+$PSScriptRoot\Test-ExchAvExclusions-#ServerName#-Results-#DateTime#.txt
+$PSScriptRoot\Test-ExchAvExclusions-#ServerName#-Debug-#DateTime#.txt
 
 List of Scanned Folders:
-$PSScriptRoot\BadExclusions-#ServerName#-#DataTime#.txt
+$PSScriptRoot\BadExclusions-#ServerName#-#DateTime#.txt
 
 .EXAMPLE
 .\Test-ExchAVExclusions.ps1
